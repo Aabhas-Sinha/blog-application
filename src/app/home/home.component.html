@@ -1,0 +1,51 @@
+ <div class = "col-sm-6" style="margin-top: 10px">
+    <div class='panel panel-primary'>
+      <div class='panel-body'>
+        <div class='row'>
+          <div class='col-md-2'>Search by Title:</div>
+          <div class='col-md-4'>
+            <input type='text' [(ngModel)]='listFilter' />
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-md-6'>
+            <h3>Filtered by: {{listFilter}} </h3>
+          </div>
+        </div>
+
+        <div class='table-responsive'>
+          <table class='table'
+                 *ngIf='blogs && blogs.length'>
+            <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Mark As Favourite</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor='let blog of filteredBlogs;let i = index'>
+                  <td><button (click) ='do(i)'>
+                {{ blog.title }}
+            </button>
+              </td>
+              <td>{{blog.authorName}}</td>
+              <td>
+                   <button class="material-icons dp50" (click) = 'markFav(i)'>favorite</button>
+             </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class>
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">{{blogTitle}}</span>
+              <p>{{blogText}}</p>
+            </div>
+          </div>
+        </div>
+      </div>

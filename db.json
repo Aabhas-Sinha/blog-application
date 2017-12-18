@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "himanshu",
+      "password": "mangoes",
+      "favorites": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "username": "kanav",
+      "password": "grapes",
+      "favorites": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "username": "user",
+      "password": "user",
+      "favorites": [
+        2
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "title": "blog-1",
+      "body": "Nulla efficitur efficitur velit quis tempus. Praesent quis nisi urna. Cras euismod consequat tortor vel fringilla. Ut a leo condimentum, eleifend nulla et, placerat lectus. Donec efficitur mi sed risus tristique dictum. Cras aliquam lorem felis, vel pharetra arcu suscipit nec. Etiam id ante pretium nisl fringilla malesuada at rutrum diam. Mauris pellentesque dictum turpis eget congue. Mauris sed condimentum mauris, vitae aliquam tellus. In vitae augue aliquam, laoreet magna nec, venenatis sem. Etiam et tincidunt nibh. Fusce varius at quam semper iaculis. Aenean tristique neque fermentum arcu luctus tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel feugiat mi.",
+      "author": "1",
+      "authorName": "kanav",
+      "id": 1
+    },
+    {
+      "title": "blog-2",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra dignissim turpis sit amet molestie. Mauris molestie tortor aliquet mauris maximus facilisis. Etiam luctus nec ante non tincidunt. Maecenas in odio ac dui semper condimentum. Sed non mi arcu. Morbi molestie magna felis, in congue metus congue in. Donec pharetra leo massa, et ornare tellus malesuada mollis. Nullam et felis eu elit auctor efficitur et vitae metus. Fusce lobortis nulla risus, id elementum tellus gravida pellentesque. Nam sit amet lectus lacus. Sed quis accumsan risus, et convallis nisl. Integer elementum, mi ac hendrerit commodo, enim enim aliquam ex, sed pharetra elit orci eget dolor.",
+      "author": "2",
+      "authorName": "himanshu",
+      "id": 2
+    },
+    {
+      "title": "Gaming",
+      "body": "Dota is the best game.",
+      "id": 3
+    },
+    {
+      "title": "Dota2",
+      "body": "Today the Dueling Fates collide, as two new heroes—Dark Willow & Pangolier—join the battle of the Ancients.\n\nAnd neither arrives to the fight empty-handed. Each hero has a debut Immortal item available in the Emblems of the Dueling Fates bundle, which also contains a Ward set, courier, and taunts for both heroes.\n\nAlong with the new heroes, Dueling Fates also introduces the 7.07 Gameplay Update; new ranked seasons for MMR; an entirely new game mode; and more. Visit the update page for details on each hero and all the other changes we’ve made.\n\nLooking beyond today’s update, we’re also currently reworking the Battle Pass system and will have more information on those changes coming in the future.",
+      "id": 4
+    },
+    {
+      "title": "Lorem Ipsum",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "author": 2,
+      "authorName": "kanav",
+      "id": 5
+    }
+  ]
+}
